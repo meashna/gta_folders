@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+
+background: linear-gradient(137deg, #FFF6FF 0%, #F0F0FF 100%);
 }
 
 .nav {
