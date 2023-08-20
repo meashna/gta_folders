@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Range Slider</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Set the background color to black */
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    appearance: none;
+    background-color: black; /* Set the background color of the slider track */
+    height: 5px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #000000; /* Set the background color of the slider thumb */
+    border-radius: 50%;
+    border: 2px solid #000000; /* Set the border color of the slider thumb */
+    cursor: pointer;
+  }
+
+</style>
+</head>
+<body>
+<div class="slider-container">
+  <input type="range" id="slider" min="0" max="100" value="50">
+</div>
+</body>
+</html>
